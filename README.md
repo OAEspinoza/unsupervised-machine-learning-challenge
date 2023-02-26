@@ -25,6 +25,7 @@ Figure 2. Elbow plot.
 - To provide further input to the analysis, the “KneeLocator” algorithm from the Python package “kneed” was used to identify the knee/elbow point of a line fit to the data. This resulted in k=3.
 - Lastly, a 3-cluster solution was plotted (Figure 3), and this seems to confirm k=3 as the best solution.
 <br>
+
 ![My Image](Figures/3_clusters.png)
 
 Figure 3. Scatterplot of 3-cluster solution.
