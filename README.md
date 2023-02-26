@@ -9,19 +9,19 @@ In this challenge, several clustering algorithms were used to explore whether pa
 - Features were further reduced to 2 using t-SNE
 - The t-SNE output was presented in a scatterplot for analysis (Figure 1 below).
 <br>
-![My Image](Figures/t-SNE_output.png)
+![My Image](Figures/t-SNE_output.png)<br>
 Figure 1
 <br>
 ## Part 3: Cluster Analysis with K-means algorithm
 - Multiple k-means clustering runs were done, using k=1 to 10, and the resulting "intertia" was ploted in an "elbow plot" (Figure 2). There appears to be an inflexion (elbow) at 3 clusters.
 <br>
-![My Image](Figures/elbow_plot.png)
+![My Image](Figures/elbow_plot.png)<br>
 Figure 2
 <br>
 - To provide further input to the analysis, the “KneeLocator” algorithm from the Python package “kneed” was used to identify the knee/elbow point of a line fit to the data. This resulted in k=3.
 - Lastly, a 3-cluster solution was plotted (Figure 3), and this seems to confirm k=3 as the best solution.
 <br>
-![My Image](Figures/3_clusters.png)
+![My Image](Figures/3_clusters.png)<br>
 Figure 3
 <br>
 ## Part 4: Recommendation
